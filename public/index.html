@@ -15,7 +15,7 @@
 <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 bg-black">
   <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
     <div class="w-full relative flex justify-between lg:w-auto lg:static lg:justify-start">
-      <a href="home" class="text-small font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">Home</a>
+      <a href="#home" class="text-small font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">Home</a>
       <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded
        bg-transparent block lg:hidden lg:outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
         <i class="text-white fas fa-bars"></i>
@@ -25,11 +25,11 @@
     <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
       <ul class="flex flex-col lg:flex-row list-none mr-auto">
         <li class="flex items-center">
-          <a href="#" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+          <a href="#ipad" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
             <i class="lg:text-gray-300 text-gray-500 fas fa-tablet text-lg leading-lg mr-2"></i>Ipad</a>
         </li>
         <li class="flex items-center">
-          <a href="#" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+          <a href="#macbook" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
             <i class="lg:text-gray-300 text-gray-500 fas fa-laptop text-lg leading-lg mr-2"></i>Macbook</a>
         </li>
         <li class="flex items-center">
@@ -82,7 +82,7 @@
     </div>
   </div>
 
-  <section class="pb-20 mt-40 bg-gray-100" id="ipad">
+  <section class="pb-20 mt-40 bg-gray-100" id="">
     <div class="flex flex-wrap">
       <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
         <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
@@ -127,7 +127,7 @@
         <div class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
           <i class="fas fa-tablet text-xl"></i>
         </div>
-          <h3 class="text-3xl mb-2 font-semibold">New Ipad Pro.</h3>
+          <h3 id="ipad" class="text-3xl mb-2 font-semibold">New Ipad Pro.</h3>
           <p class="text-lg font-light leading-relaxed mt-4 text-gray-700">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsum minus obcaecati. Ab, aperiam debitis distinctio ducimus
             eos error et facere incidunt non perferendis quo quos recusandae tenetur unde velit!
@@ -146,6 +146,32 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis consequatur cumque cupiditate fugit maiores natus omnis quis tempora temporibus.
             </p>
           </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="relative py-20 bg-black" id="macbook">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute overflow-hidden -mt-20" style="height: 80px;">
+      <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+        <polygon class="text-black fill-current" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+    </div>
+    <div class="container mx-auto px-4 bg-black">
+      <div class="items-center flex flex-wrap">
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4 ">
+          <img src="https://www.apple.com/v/macbook-pro-13/j/images/overview/magic_keyboard__brx9diaauwaa_large_2x.jpg" class="max-w-full rounded-lg shadow-lg" style="width: 400px" alt="" >
+        </div>
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div class="md:pr-12">
+            <div class="text-black p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+              <i class="fas fa-laptop text-xl"></i>
+            </div>
+            <h3 class="text-3xl font-semibold text-white">Macbook Pro 12&16in</h3>
+            <p class="mt-4 text-lg leading-relaxed text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores
+              atque beatae cumque, deserunt dignissimos dolor, facilis fuga fugiat illum in ipsam modi obcaecati quis repellat sapiente sunt veniam voluptatem!
+            </p>
+          </div>
         </div>
       </div>
     </div>
