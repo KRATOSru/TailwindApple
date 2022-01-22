@@ -1,1 +1,1 @@
-import "./assets/tailwind.css";
+import './assets/tailwind.css'
